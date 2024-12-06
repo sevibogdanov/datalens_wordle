@@ -28,9 +28,9 @@ del(df['key'])
 for each in ['1','2','3','4','5']:
     df[each] = df['word'].apply(lambda x: x[int(each)-1])
 
-df.to_csv('datalens_wordle.csv',index=False)```
-
-</details>  
+df.to_csv('datalens_wordle.csv',index=False)
+```
+</details>
 
 
 <details>  
