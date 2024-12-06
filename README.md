@@ -3,7 +3,8 @@
 <details>
 <summary>Код подготовки csv</summary>  
  
-```import pandas as pd
+``` python
+import pandas as pd
 import datetime
 
 words = [
@@ -33,9 +34,10 @@ df.to_csv('datalens_wordle.csv',index=False)```
 
 
 <details>  
-<summary>Код подготовки формулы для отображения списка введенных букв</summary>  
+<summary>Код подготовки формулы для отображения списка введенных букв</summary>   
 
-```import pyperclip
+``` python  
+import pyperclip
 
 #для каждой буквы алфавита выполняется проверка была ли она введена и на какой позиции стоит, есть ли она в слове
 #в зависимости от результата буква красится в цвет
