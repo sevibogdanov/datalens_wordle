@@ -33,7 +33,7 @@ df.to_csv('datalens_wordle.csv',index=False)```
 
 
 <details>
-<summary>Код подготовки csv</summary>
+<summary>Код подготовки формулы для отображения списка введенных букв</summary>
 
 ```import pyperclip
 
