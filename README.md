@@ -29,11 +29,11 @@ for each in ['1','2','3','4','5']:
 
 df.to_csv('datalens_wordle.csv',index=False)```
 
-</details>
+</details>  
 
 
-<details>
-<summary>Код подготовки формулы для отображения списка введенных букв</summary>
+<details>  
+<summary>Код подготовки формулы для отображения списка введенных букв</summary>  
 
 ```import pyperclip
 
