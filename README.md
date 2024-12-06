@@ -4,6 +4,8 @@
 
 ## Пример расчета поля "01"
 
+![image](https://github.com/user-attachments/assets/df7ee514-4c93-4ef7-b95a-d1b99dda32bb)
+
 ```
 /*в поле try указан номер попытки
 в полях [1]-[5] - буквы в слове по порядку для удобства
@@ -102,8 +104,6 @@ df.to_csv('datalens_wordle.csv',index=False)
 ```
 </details>
 
-![image](https://github.com/user-attachments/assets/ca80e3f2-9020-4e2e-af74-8b99a4fe0559)
-
 
 <details>  
 <summary>Код подготовки формулы для отображения списка введенных букв</summary>   
@@ -185,7 +185,10 @@ pyperclip.copy(txt)
 
 <details>  
 <summary>Итоговый код формулы для отображения списка введенных букв</summary> 
- 
+
+
+![image](https://github.com/user-attachments/assets/ca80e3f2-9020-4e2e-af74-8b99a4fe0559)
+
 ```
 MARKUP('| ',if(   
     /*green*/ 
