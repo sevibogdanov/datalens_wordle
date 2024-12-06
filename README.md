@@ -106,6 +106,6 @@ for i in alphabet:
     txt+=text
 txt = txt[:-1]+')'
 
-pyperclip.copy(txt)```
-
+pyperclip.copy(txt)
+```
 </details>
