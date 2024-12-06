@@ -102,6 +102,8 @@ df.to_csv('datalens_wordle.csv',index=False)
 ```
 </details>
 
+![image](https://github.com/user-attachments/assets/ca80e3f2-9020-4e2e-af74-8b99a4fe0559)
+
 
 <details>  
 <summary>Код подготовки формулы для отображения списка введенных букв</summary>   
