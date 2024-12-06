@@ -1,6 +1,8 @@
 # datalens_wordle
 
-Код подготовки csv:
+<details>
+<summary>Код подготовки csv</summary>  
+ 
 ```import pandas as pd
 import datetime
 
@@ -26,3 +28,6 @@ for each in ['1','2','3','4','5']:
     df[each] = df['word'].apply(lambda x: x[int(each)-1])
 
 df.to_csv('datalens_wordle.csv',index=False)```
+
+</details>
+
