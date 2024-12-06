@@ -1,5 +1,7 @@
 # datalens_wordle
 
+[Дашборд в DataLens](https://datalens.yandex/3ni4lu5720msq)
+
 ## Пример расчета поля "01"
 
 ```
